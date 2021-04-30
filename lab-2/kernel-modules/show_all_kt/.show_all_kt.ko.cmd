@@ -1,0 +1,1 @@
+cmd_/root/kernel-modules/show_all_kt/show_all_kt.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /root/kernel-modules/show_all_kt/show_all_kt.ko /root/kernel-modules/show_all_kt/show_all_kt.o /root/kernel-modules/show_all_kt/show_all_kt.mod.o ;  true

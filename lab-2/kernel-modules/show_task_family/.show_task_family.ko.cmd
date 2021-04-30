@@ -1,0 +1,1 @@
+cmd_/root/kernel-modules/show_task_family/show_task_family.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /root/kernel-modules/show_task_family/show_task_family.ko /root/kernel-modules/show_task_family/show_task_family.o /root/kernel-modules/show_task_family/show_task_family.mod.o ;  true
