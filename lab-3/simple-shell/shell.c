@@ -46,6 +46,7 @@ int create_child(int opNum)
         case 3:
             printf("\nExited Successfully.\n");
             exit(1);
+            exit(1);
             break;
         default:
             printf("\nError: Command Not Found.\n");
