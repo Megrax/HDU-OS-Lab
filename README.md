@@ -6,3 +6,6 @@ Special thanks to [this repo](https://github.com/IrisTc/HDU-OS).
 
 Mostly my code is modyfied based on it.
 
+## License
+
+MIT
